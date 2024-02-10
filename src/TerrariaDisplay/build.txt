@@ -1,0 +1,3 @@
+displayName = Terraria Display
+author = Tomat
+version = 1.0.0

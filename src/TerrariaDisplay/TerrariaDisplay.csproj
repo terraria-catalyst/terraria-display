@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../../catalyst/Mod.Build.targets"/>
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <RootNamespace>TeamCatalyst.TerrariaDisplay</RootNamespace>
+        
+        <AssemblyPublicizerPaths>$(AssemblyPublicizerPaths);$(MSBuildThisFileDirectory)terrariadisplay.publicizer.js</AssemblyPublicizerPaths>
+    </PropertyGroup>
+
+</Project>
